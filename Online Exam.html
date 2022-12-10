@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Exam</title>
+    <link rel="stylesheet" href="Online%20Exam.css">
+</head>
+<body>
+<div class="navbar">
+    <ul>
+        <li class="a"><a href="Online%20Exam.html">Registration</a></li>
+        <li class="a">Examination Rules</li>
+        <li class="a">Result</li>
+        <li class="a"><a href="online%20exam2.html">Schedule</a></li>
+        <li class="a">Objective</li>
+        <li class="a">Subjective</li>
+        <li class="a">Logout</li>
+    </ul>
+</div>
+<div id="all">
+<div id="container">
+
+    <div class="title">Registration</div>
+    <div class="content">
+    <form  autocomplete="off" action="#">
+        <div class="user-details">
+            <div class="input-box">
+                <span class="details">Full Name</span>
+                <label>
+                    <input type="text" placeholder="Your Full Name" required>
+                </label>
+            </div>
+            <div class="input-box">
+                <span class="details">Registration No.</span>
+                <label>
+                    <input type="number" placeholder="Enter Your Reg no." required>
+                </label>
+            </div>
+            <div class="input-box">
+                <span class="details">E-mail address</span>
+                <label>
+                    <input type="email" placeholder="Enter your email" required>
+                </label>
+            </div>
+            <div class="input-box">
+                <span class="details">Password</span>
+                <label>
+                    <input type="password" placeholder="Enter Password" required>
+                </label>
+            </div>
+            <div class="input-box">
+                <span class="details">Phone Number</span>
+                <label>
+                    <input type="number" placeholder="Enter your number" required>
+                </label>
+            </div>
+            <div class="input-box">
+                <span class="details">Confirm Password</span>
+                <label>
+                    <input type="password" placeholder="Repeat Password" required>
+                </label>
+            </div>
+            <div class="input-box">
+                <label for="course">Choose Course</label>
+
+                <select name="Course" id="course">
+                    <option value="CSE">Computer Science & Engineering(CSE)</option>
+                    <option value="BBA">Bachelors of Business Administration(BBA)</option>
+                    <option value="EEE">Electronics & Electrical Engineering(EEE)</option>
+                    <option value="MEC">Mechanical Engineering(MEC)</option>
+                </select>
+
+            </div>
+            <div class="gender-details">
+
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <input type="radio" name="gender" id="dot-1">
+
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <input type="radio" name="gender" id="dot-2">
+
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <input type="radio" name="gender" id="dot-3">
+                        <span  class="gender">Prefer not to say</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <button class="btn">Register</button>
+        </div>
+    </form>
+    </div>
+</div>
+</div>
+</body>
+</html>

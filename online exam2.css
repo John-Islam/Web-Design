@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", sans-serif;
+    text-decoration: none;
+}
+BODY {
+    font-family: Trebuchet MS;
+    margin:20px;
+    background-image: url(aaa.png);
+}
+
+H1 {
+    text-align: center;
+    color: #f14343;
+}
+
+.myTimetable {
+    width:100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.myTimetable THEAD{
+    color: #b471ef;
+}
+
+.myTimetable TBODY {
+    background-color: #AAAAFF;
+}
+
+.myTimetable TD {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}
+.myTimetable TBODY TR TD:first-child {
+    background-color: #FF0066;
+    font-weight: bold;
+}
+
+
+.subject {
+    font-size: 12pt;
+    margin-bottom:10px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display:inline-block;
+
+}
+.navbar{
+    text-align: center;
+    float:left;
+    width: 100%;
+    background-color: rgba(217, 153, 229, 0.59);
+    padding: 10px 10px ;
+}
+.a{
+    padding-right: 60px;
+}
